@@ -109,6 +109,10 @@ img::-moz-selection {
     background-color: #FBFAEA !important;
 }
 
+.bg-black {
+  background-color: #000000 !important;
+}
+
 #mainNav {
   position: absolute;
   border-bottom: 1px solid #e9ecef;
