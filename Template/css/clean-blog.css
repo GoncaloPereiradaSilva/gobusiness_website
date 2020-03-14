@@ -37,8 +37,16 @@ h2 {
     text-align: center;
 }
 
+h4  {
+  color: #000000;
+  font-family: Lora;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+
 h3,
-h4,
 h5,
 h6 {
   font-weight: 800;
@@ -201,14 +209,14 @@ html {
   }
   #mainNav .navbar-brand {
     padding: 10px 20px;
-    color: #fff;
+    color: black;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: black;
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
-    color: #fff;
+    color: black;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
     color: rgba(255, 255, 255, 0.8);
