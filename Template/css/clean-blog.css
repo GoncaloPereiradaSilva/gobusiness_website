@@ -156,11 +156,6 @@ img::-moz-selection {
 }
 
 /* Layout styles only, not needed for functionality */
-html {
-  font-family: sans-serif;
-  padding-right: 1em;
-  padding-left: 1em;
-}
 
 .grid {
   display: grid;
