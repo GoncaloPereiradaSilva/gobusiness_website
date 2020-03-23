@@ -125,6 +125,18 @@ img::-moz-selection {
   transform-origin: center; /* 4 */
 }
 
+.arrow{
+  display:block;
+}
+.arrow90{
+  display:none;
+}
+
+@media only screen and (max-width: 992px) {
+    .arrow{display:none;}
+    .arrow90{display:block;}
+}
+
 /**
  * 1. Rotate by -90 degree to make the starting point of the
  *    stroke the top of the circle.
@@ -135,7 +147,7 @@ img::-moz-selection {
  * .  workaround (https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/#part-4-internet-explorer-strikes-back).
  */
 .circle-chart__circle--negative {
-  transform: rotate(-90deg) scale(1,-1); /* 1, 2, 3 */
+  transform: rotate(90deg) scale(1,-1); /* 1, 2, 3 */
 }
 
 .circle-chart__info {
