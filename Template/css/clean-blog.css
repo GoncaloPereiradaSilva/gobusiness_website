@@ -119,6 +119,14 @@ img::-moz-selection {
   background-color: #000000 !important;
 }
 
+.bg-white {
+  background-color: #FFFFFF !important;
+}
+
+.bg-grey {
+  background-color: #d9d9d9 !important;
+}
+
 .circle-chart__circle {
   animation: circle-chart-fill 2s reverse; /* 1 */ 
   transform: rotate(-90deg); /* 2, 3 */
