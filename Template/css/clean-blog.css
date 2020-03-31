@@ -229,7 +229,7 @@ img::-moz-selection {
     color: black;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
   }
 }
 
