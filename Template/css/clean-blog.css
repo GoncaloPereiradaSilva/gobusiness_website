@@ -140,7 +140,7 @@ img::-moz-selection {
   display:none;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 764px) {
     .arrow{display:none;}
     .arrow90{display:block;}
 }
