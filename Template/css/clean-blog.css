@@ -27,6 +27,9 @@ h1 {
     font-weight: bold;
 }
 
+h3 {
+  font-family: Lora;
+}
 
 h2 {
     color: #000000;
@@ -226,7 +229,7 @@ img::-moz-selection {
     color: black;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
   }
 }
 
